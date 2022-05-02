@@ -1,12 +1,12 @@
 programa
-{ /*2) Elabore um sistema que leia as variáveis C e N, respectivamente código e número de horas trabalhadas de um operário.
+{ /*2) Elabore um sistema que leia as variáveis C e N, respectivamente código e número de horas trabalhadas de um operário.
 E calcule o salário sabendo-se que ele ganha R$ 10,00 por hora. Quando o número de horas exceder a 50 calcule o excesso
 de pagamento armazenando-o na variável E, caso contrário zerar tal variável. A hora excedente de trabalho vale R$ 20,00.
 No final do processamento imprimir o salário total e o salário excedente.*/
 	
 	funcao inicio()
 	{
-	inteiro n, E
+	inteiro c, n, E
 	real salario, salarioE, salarioT
 	
 	 escreva ("\nDigite as horas que você trabalhou: \n")
@@ -25,7 +25,7 @@ No final do processamento imprimir o salário total e o salário excedente.*/
 	 	escreva ("\nDigite o número de horas que excedeu: ")
 	 	
 	 leia (E)
-
+	 
 	 salarioE = E * 20
 	 salarioT = salario + salarioE
 
@@ -39,7 +39,7 @@ No final do processamento imprimir o salário total e o salário excedente.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 526; 
+ * @POSICAO-CURSOR = 484; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,5 +1,5 @@
 programa
-{ /*
+{ /*
 *\ EXERCÍCIO
 1) João, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso
 de tomate maior que o estabelecido pelo regulamento do estado de São Paulo (50 quilos) deve pagar um multa de R$ 4,00 por quilo 
@@ -8,7 +8,7 @@ gravar na variável E (Excesso) e na variável M o valor da multa que João deve
 conteúdo ZERO.
  */
     	cadeia nome
-	inteiro P
+	inteiro P
 	inteiro E
 	real M
 
@@ -26,8 +26,8 @@ conteúdo ZERO.
 		
 		senao se (P > 50)
 			{ escreva ("Você ultrapassou o limite de peso. O preço da multa é R$4 a cada quilo excedente\n")
-			escreva ("\nAgora digite o valor excedente: ")
-			leia (E)
+
+			E = (P-50)
 			M = E * 4 //Nesse programa quem tem que fazer a conta é o usuário, vou tentar fazer com que o próprio programa calcule esse valor excedente.
 
 			escreva ("O valor da sua multa é de R$", M)
@@ -44,7 +44,7 @@ conteúdo ZERO.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1303; 
+ * @POSICAO-CURSOR = 1257; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
