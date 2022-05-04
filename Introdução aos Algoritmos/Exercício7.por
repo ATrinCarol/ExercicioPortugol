@@ -5,12 +5,12 @@ programa
 	{
 		inteiro a, b, c, d, E, f, x, y
 
-	a = 1
-	b = 2
-	c = 3
-	d = 4
-	E = 5
-	f = 6
+	a = 5
+	b = 10
+	c = 15
+	d = 20
+	E = 33
+	f = 27
 
 	 
 		x = ((c+E - b+f) / (a+E - b+d))
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 257; 
+ * @POSICAO-CURSOR = 113; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

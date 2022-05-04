@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat //lembrar de estudar para limitar as casas decimais neste programa
+	inclua biblioteca Matematica --> mat //lembrar de estudar para limitar as casas decimais neste programa. CHECK
 	
 	funcao inicio()
 	{
@@ -8,10 +8,13 @@ programa
 	real segundos, minutos, horas, arredondado
 	
 		escreva("Olá. Vamos detalhar o tempo de duração que você presenciou o evento. Digite abaixo os segundos que esteve presente: \n")
-		leia (segundos)
+		leia (segundos)
 
 		minutos = segundos / 60
 		horas = minutos / 60
+
+		horas = mat.arredondar(horas, 2)
+		minutos = mat.arredondar(minutos, 2)
 
 		escreva ("Sendo assim, você presenciou ", horas, " horas, ", minutos, " minutos, ", segundos, " segundos de evento.")
 
@@ -23,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 115; 
+ * @POSICAO-CURSOR = 122; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
